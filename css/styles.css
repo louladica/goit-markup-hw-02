@@ -11,11 +11,16 @@
     --cloud: #F4F4FD;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+  }
+
+  /* CSS for Header */
 .webstudio-logo{
     text-decoration: none;
-    font-family: 'Raleway',sans-serif; 
-    font-size: 30px;
-    line-height: 21px;
+    font-family: 'Roboto',sans-serif; 
+    font-size: 18px;
 }
 
 .web-logo{
@@ -28,13 +33,14 @@ color: var(--navyblue);
 font-weight: 800
 }
 
+/* Navigation Section */
 .navigation .pages{
 color: var(--navcolor);
 text-decoration: none;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
-letter-spacing: 0.32px;
+font-family: inherit;
 }
 
 .lists{
@@ -55,9 +61,8 @@ letter-spacing: 0.32px;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.32px;
 }
-
+/* Section 1 */
 .bg-section1{
     background-color: var(--navyblue);
 }
@@ -65,11 +70,8 @@ letter-spacing: 0.32px;
 .h1-title{
     color: var(--whitecolor);
     font-size: 56px;
-    font-style: normal;
     font-weight: 700;
     line-height: 60px;
-    letter-spacing: 1.12px;
-    text-align: center;
 }
 
 .btn{
@@ -79,27 +81,27 @@ letter-spacing: 0.32px;
     font-family: inherit;
 }
 
-.btn .primary{
+.btn.primary{
     background-color: var(--oceancolor);
     color: var(--whitecolor);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    
 }
 
 .btn.primary:hover,
 .btn.primary:focus{
-    background-color: blue;
+    background-color: var(--iriscolor);
 }
+
+/* Criteria list */
 
 .titlelist{
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.4px;
 }
 
 .descriptionlist{
@@ -107,9 +109,9 @@ letter-spacing: 0.32px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.32px;
 }
 
+/* What are we doing section */
 .sectiontitle{
     text-align: center;
     color: var(--navyblue);
@@ -117,7 +119,7 @@ letter-spacing: 0.32px;
     font-weight: 700;
     line-height: 40px;
 }
-
+/* Our Team */
 .teamname{
     color: var(--navyblue);
     font-size: 20px;
@@ -131,9 +133,8 @@ letter-spacing: 0.32px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.32px;
 }
-
+/* CSS for footer */
 .footerbg{
     background-color: var(--navyblue);
 }
@@ -148,6 +149,7 @@ letter-spacing: 0.32px;
     height: 75px;
 }
 
+/* CSS for Portfolio Section */
 .btnsrvc{
     cursor: pointer;
     border-color: transparent;
