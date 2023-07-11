@@ -88,6 +88,7 @@ font-family: inherit;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
+    border-radius: 5px;
 }
 
 .btn.primary:hover,
@@ -113,11 +114,9 @@ font-family: inherit;
 
 /* What are we doing section */
 .sectiontitle{
-    text-align: center;
     color: var(--navyblue);
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
 }
 /* Our Team */
 .teamname{
@@ -151,11 +150,13 @@ font-family: inherit;
 
 /* CSS for Portfolio Section */
 .btnsrvc{
+    color: var(--iriscolor);
     cursor: pointer;
     border-color: transparent;
     letter-spacing: 0.64px;
     font-family: inherit;
     background-color: var(--cornflower);
+    border-radius: 3px;
 }
 
 .btnsrvc .hovered{
