@@ -12,25 +12,26 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
   }
 
   /* CSS for Header */
 .webstudio-logo{
-    text-decoration: none;
-    font-family: 'Roboto',sans-serif; 
+    text-decoration: none; 
     font-size: 18px;
+    font-weight: 800;
 }
 
 .web-logo{
     color: var(--iriscolor);
-    font-weight: 800;
 }
 
 .studio-logo{
 color: var(--navyblue);
-font-weight: 800
 }
 
 /* Navigation Section */
@@ -38,9 +39,6 @@ font-weight: 800
 color: var(--navcolor);
 text-decoration: none;
 font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-font-family: inherit;
 }
 
 .lists{
@@ -58,16 +56,13 @@ font-family: inherit;
 .contact-information .information{
     color: var(--navcolor);
     text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
 }
 /* Section 1 */
-.bg-section1{
+.hero{
     background-color: var(--navyblue);
 }
 
-.h1-title{
+.hero-title{
     color: var(--whitecolor);
     font-size: 56px;
     font-weight: 700;
@@ -82,18 +77,18 @@ font-family: inherit;
 }
 
 .btn.primary{
-    background-color: var(--oceancolor);
+    background-color: var(--iriscolor);
     color: var(--whitecolor);
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .btn.primary:hover,
 .btn.primary:focus{
-    background-color: var(--iriscolor);
+    background-color: var(--oceancolor);
 }
 
 /* Criteria list */
@@ -102,36 +97,32 @@ font-family: inherit;
     color: var(--navyblue);
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
 }
 
 .descriptionlist{
     color: var(--slatecolor);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
 }
 
 /* What are we doing section */
-.sectiontitle{
+.section-title{
     color: var(--navyblue);
     font-size: 36px;
     font-weight: 700;
 }
 /* Our Team */
+.section-grey{
+    background-color: var(--cloud);
+}
+
 .teamname{
     color: var(--navyblue);
     font-size: 20px;
-    line-height: 24px;
     letter-spacing: 0.4px;
     font-weight: 500;
 }
 
 .position{
     color: var(--slatecolor);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
 }
 /* CSS for footer */
 .footerbg{
@@ -149,17 +140,29 @@ font-family: inherit;
 }
 
 /* CSS for Portfolio Section */
-.btnsrvc{
+
+.filter{
     color: var(--iriscolor);
     cursor: pointer;
     border-color: transparent;
     letter-spacing: 0.64px;
     font-family: inherit;
-    background-color: var(--cornflower);
-    border-radius: 3px;
+    background-color: var(--cloud);
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid var(--cornflower);
+    font-weight: 500;
 }
 
-.btnsrvc .hovered{
+.filter-active, .filter:hover, .filter:focus{
+    color: var(--whitecolor);
+    border-radius: 4px;
+    background-color: var(--oceancolor);
+    border-color: var(--oceancolor);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);;
+}
+
+.filter .filter-active{
     color: var(--iriscolor);
     font-size: 16px;
     font-weight: 500;
@@ -167,24 +170,19 @@ font-family: inherit;
     letter-spacing: 0.64px;
 }
 
-.btnsrvc.hovered:hover,
-.btnsrvc.hovered:focus{
+.filter.filter-active:hover,
+.filter.filter-active:focus{
     color: var(--cloud);
     background-color: var(--oceancolor);
 }
 
-.srvcs{
+.project-title{
     color: var(--navyblue);
     font-size: 20px;
-    line-height: 24px;
     letter-spacing: 0.4px;
     font-weight: 500;
 }
 
-.srvcsinfo{
+.project-description{
     color: var(--slatecolor);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
 }
